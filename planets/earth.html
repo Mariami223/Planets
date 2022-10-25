@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Earth</title>
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrap">
+          <div class="logo">
+            <h4>PLANETS</h4>
+          </div>
+          <div class="burger">
+            <img src="/planets/assets/icon-hamburger.svg" id="burger" />
+          </div>
+        </div>
+        <ul class="menu display-none">
+          <li id="mercury">
+            <a href="/planets/mercury.html">mercury</a>
+          </li>
+          <li id="venus">
+            <a href="/planets/venus.html">Venus</a>
+          </li>
+          <li id="earth">
+            <a href="/planets/earth.html">earth</a>
+          </li>
+          <li id="mars">
+            <a href="/planets/mars.html">mars</a>
+          </li>
+          <li id="jupiter">
+            <a href="/planets/jupiter.html">jupiter</a>
+          </li>
+          <li id="saturn">
+            <a href="/planets/saturn.html">saturn</a>
+          </li>
+          <li id="uranus"><a href="/planets/uranus.html">uranus</a></li>
+          <li id="neptune"><a href="/planets/neptune.html">neptune</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="heading"></h1>
+      <div class="content-container"> 
+        <div>
+        <div class="planetImage"></div>
+        <div class="content"></div>
+      </div>
+
+      <div>
+        <div class="planetImageInternal"></div>
+        <div class="contentInternal"></div>
+      </div>
+    </div>
+     
+      <section class="info-container">
+        <div class="info">
+          <p>rotation time</p>
+          <span id="rotation"></span>
+        </div>
+        <div class="info">
+          <p>revolution time</p>
+          <span id="revolution"></span>
+        </div>
+        <div class="info">
+          <p>radius</p>
+          <span id="radius"></span>
+        </div>
+        <div class="info">
+          <p>avarage temp.</p>
+          <span id="temp"></span>
+        </div>
+      </div>
+      </section>
+
+    </main>
+  </body>
+</html>

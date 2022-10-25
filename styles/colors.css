@@ -1,0 +1,75 @@
+:root {
+  --mercury-color: #419ebb;
+  --venus-color: #eda249;
+  --earth-color: #6d2ed5;
+  --mars-color: #d14c32;
+  --jupiter-color: #d83a34;
+  --saturn-color: #cd5120;
+  --uranus-color: #1ec1a2;
+  --neptune-color: #2d68f0;
+  --white: #ffffff;
+  --white-text: #ffffffcc;
+  --space: #070724;
+  --dark-grey: #38384f;
+  --light-grey: #838391;
+}
+
+#mercury:hover {
+  border-bottom: 3px solid var(--mercury-color);
+}
+#venus:hover {
+  border-bottom: 3px solid var(--venus-color);
+}
+#earth:hover {
+  border-bottom: 3px solid var(--earth-color);
+}
+#mars:hover {
+  border-bottom: 3px solid var(--mars-color);
+}
+#jupiter:hover {
+  border-bottom: 3px solid var(--jupiter-color);
+}
+#saturn:hover {
+  border-bottom: 3px solid var(--saturn-color);
+}
+#uranus:hover {
+  border-bottom: 3px solid var(--uranus-color);
+}
+#neptune:hover {
+  border-bottom: 3px solid var(--neptune-color);
+}
+
+@media (max-width: 575.98px) {
+  #mercury:hover {
+    background-color: var(--mercury-color);
+    border-bottom: none;
+  }
+  #venus:hover {
+    background-color: var(--venus-color);
+    border-bottom: none;
+  }
+  #earth:hover {
+    background-color: var(--earth-color);
+    border-bottom: none;
+  }
+  #mars:hover {
+    background-color: var(--mars-color);
+    border-bottom: none;
+  }
+  #jupiter:hover {
+    background-color: var(--jupiter-color);
+    border-bottom: none;
+  }
+  #saturn:hover {
+    background-color: var(--saturn-color);
+    border-bottom: none;
+  }
+  #uranus:hover {
+    background-color: var(--uranus-color);
+    border-bottom: none;
+  }
+  #neptune:hover {
+    background-color: var(--neptune-color);
+    border-bottom: none;
+  }
+}
